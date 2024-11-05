@@ -1,5 +1,6 @@
 .idea/libraries/
 .idea/**/*.xml
+!.idea/inspectionProfiles/*.xml
 !.idea/gradle.xml
 !.idea/misc.xml
 !.idea/modules.xml
