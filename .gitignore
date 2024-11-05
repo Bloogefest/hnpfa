@@ -1,4 +1,16 @@
-.idea/
+.idea/libraries/
+.idea/**/*.xml
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
 
+**/.gradle/
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+**/.DS_Store
 *.ipr
 *.iws
