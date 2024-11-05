@@ -1,6 +1,6 @@
 # Hahathon Noobs: PFA
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Bloogefest/hnpfa/codeql.yml?style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Bloogefest/hnpfa/codeql.yml?style=for-the-badge&label=CodeQL)
 
 ## Введение
 
