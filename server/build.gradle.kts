@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "ru.hnpfa"
-version = "0.1.0"
+version = "1.0.0-RC1"
 
 java {
     toolchain {
