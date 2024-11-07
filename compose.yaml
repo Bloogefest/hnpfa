@@ -1,0 +1,37 @@
+services:
+  database:
+    container_name: database
+    image: 'postgres:17.0'
+    environment:
+      - 'POSTGRES_DB=hnpfa'
+      - 'POSTGRES_PASSWORD=root'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432:5432'
+    networks:
+      - service
+    restart: always
+#  client:
+#    container_name: frontend
+#    build: 'client/'
+#    ports:
+#      - '80:3000'
+#    networks:
+#      - service
+#    restart: always
+  server:
+    container_name: backend
+    build: 'server/'
+    depends_on:
+      - database
+    ports:
+      - '8080:8080'
+    networks:
+      - service
+    restart: always
+
+networks:
+  service:
+    name: service
+    driver: bridge
+    enable_ipv6: true
