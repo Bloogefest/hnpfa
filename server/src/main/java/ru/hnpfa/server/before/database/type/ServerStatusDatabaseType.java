@@ -1,23 +1,23 @@
-package ru.hnpfa.server.api.service.version;
+package ru.hnpfa.server.before.database.type;
 
 /**
  * @since 1.0.0-RC1
  */
-public enum ServerApiServiceVersionType {
+public enum ServerStatusDatabaseType {
 
     /**
      * @since 1.0.0-RC1
      */
-    SNAPSHOT,
+    UNDEFINED,
 
     /**
      * @since 1.0.0-RC1
      */
-    RELEASE_CANDIDATE,
+    INACTIVE,
 
     /**
      * @since 1.0.0-RC1
      */
-    RELEASE
+    ACTIVE
 
 }

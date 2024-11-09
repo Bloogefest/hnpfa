@@ -1,4 +1,4 @@
-package ru.hnpfa.server.api.service.version;
+package ru.hnpfa.server.before.api.service.version;
 
 /**
  * @since 1.0.0-RC1

@@ -13,8 +13,13 @@ class ServerApplication {
     /**
      * @since 1.0.0-RC1
      */
-    public static void main(final @NonNull String... args) {
-        SpringApplication.run(ServerApplication.class, args);
+    ServerApplication() {}
+
+    /**
+     * @since 1.0.0-RC1
+     */
+    public static void main(final @NonNull String... arguments) {
+        SpringApplication.run(ServerApplication.class, arguments);
     }
 
 }
